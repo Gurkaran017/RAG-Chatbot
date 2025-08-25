@@ -99,3 +99,23 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 
 ### 5. Display Answer
 - Chat interface shows the response with a **typing animation**
+
+---
+
+## 📌 Dependencies
+
+### 🐍 Python
+- Python **3.9+**
+
+### 📦 Core Libraries
+- **Streamlit**  
+- **LangChain**  
+- **LangChain-Community**  
+- **LangChain-Chroma**
+
+### 🗄️ Optional
+- **FAISS** → optional backup vector database
+
+### 🤖 AI Model
+- **Google Generative AI (Gemini)**
+
