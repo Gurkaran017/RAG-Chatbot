@@ -119,3 +119,9 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 ### 🤖 AI Model
 - **Google Generative AI (Gemini)**
 
+3. **Install via:**
+   ```bash
+   pip install -r requirements.txt
+
+---
+
