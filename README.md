@@ -20,16 +20,16 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 
 ## 📂 Project Structure
 
-rag-chatbot/
-│── main.py # Streamlit UI and chatbot logic
-│── vector_store.py # Creates/loads Chroma vector DB
-│── splitter.py # Splits PDFs into semantic chunks
-│── loader.py # Loads PDF documents
-│── config.py # API keys, model setup, DB paths
-│── AppleData-2024.pdf # Sample knowledge base PDF
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
-│── .env # Store Google API key here
+## rag-chatbot/
+## │── main.py # Streamlit UI and chatbot logic
+## │── vector_store.py # Creates/loads Chroma vector DB
+## │── splitter.py # Splits PDFs into semantic chunks
+## │── loader.py # Loads PDF documents
+## │── config.py # API keys, model setup, DB paths
+## │── AppleData-2024.pdf # Sample knowledge base PDF
+## │── requirements.txt # Python dependencies
+## │── README.md # Project documentation
+## │── .env # Store Google API key here
 
 
 ---
