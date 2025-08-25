@@ -49,4 +49,45 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
    ```bash
    GOOGLE_API_KEY=your_google_api_key_here
 
+---
+
+## ⚙️ How It Works (Architecture)
+
+### 🔹 Step 1: Document Loading
+- Uses `PyPDFLoader` from `langchain_community`  
+- Loads all text from **AppleData-2024.pdf**
+
+---
+
+### 🔹 Step 2: Semantic Chunking
+- Uses **SemanticChunker** with **Google Embeddings**  
+- Breaks the document into **meaningful sections** instead of fixed-size chunks
+
+---
+
+### 🔹 Step 3: Vector Database (ChromaDB)
+- Stores embeddings in **ChromaDB (persistent)**  
+- Automatically reuses existing DB if available
+
+---
+
+### 🔹 Step 4: Query Retrieval
+- User query → Expanded into multiple queries using **MultiQueryRetriever**  
+- Fetches **top k=3** most relevant chunks from Chroma
+
+---
+
+### 🔹 Step 5: Prompt + LLM
+- Builds a **prompt template** with:  
+  - Conversation history  
+  - Retrieved context  
+  - Latest question  
+- Sends it to **Google Gemini (`gemini-1.5-flash`)**
+
+---
+
+### 🔹 Step 6: Streaming Response
+- LLM response streamed **word-by-word**  
+- Typing effect for a **natural chat experience**
+
 
