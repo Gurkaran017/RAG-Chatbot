@@ -102,6 +102,20 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 
 ---
 
+## 📷 Screenshots  
+
+### 1. Welcome Page  
+![Welcome Page](screenshots/welcome.png)  
+
+### 2. User Asking Question  
+![User Asking Question](screenshots/user_question.png)  
+
+### 3. Bot Responding with Typing Effect  
+![Bot Response](screenshots/bot_response.png)  
+
+
+---
+
 ## 📌 Dependencies
 
 ### 🐍 Python
