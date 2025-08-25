@@ -46,7 +46,6 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
    pip install -r requirements.txt
 
 3. **Setup Environment Variables**
-   Create a .env file in the project root and add your Google Gemini API key:
    ```bash
    GOOGLE_API_KEY=your_google_api_key_here
 
