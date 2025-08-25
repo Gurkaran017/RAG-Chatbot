@@ -91,3 +91,29 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 - Typing effect for a **natural chat experience**
 
 
+---
+
+## 📊 Example Workflow
+
+### 1. Start the App
+- Loads **PDF** + **Chroma DB**
+
+---
+
+### 2. Ask a Question
+- Example: *“Summarize key points”*
+
+---
+
+### 3. Retrieve Relevant Chunks
+- Retriever fetches **top matching sections** from the document
+
+---
+
+### 4. Generate Response
+- **Gemini LLM** creates a contextual answer
+
+---
+
+### 5. Display Answer
+- Chat interface shows the response with a **typing animation**
