@@ -38,5 +38,10 @@ This chatbot lets you **upload and query your PDF knowledge base**, retrieving *
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/rag-chatbot.git
+   git clone https://github.com/Gurkaran017/RAG-Chatbot.git
    cd rag-chatbot
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
